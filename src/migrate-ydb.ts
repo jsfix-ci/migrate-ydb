@@ -1,6 +1,4 @@
-#! /usr/bin/env node
-
-import program from 'commander';
+import { program } from 'commander';
 import Table from 'cli-table3';
 import { Driver } from 'ydb-sdk';
 
